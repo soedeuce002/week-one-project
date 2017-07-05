@@ -10,22 +10,33 @@
   <body background="images/background-2.jpg">
     <header>
       <nav>
-        <img src="images/bent-creek-logo.png" id="logo"></img>
-        <a href="#">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="newsletter.html">NEWSLETTER</a>
+        <div class="logo">
+          <img src="images/bent-creek-logo.png" id="logo"></img>
+        </div>
+        <div class="navigation">
+          <a href="#">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="newsletter.html">NEWSLETTER</a>
+        </div>
       <nav>
-
-
-
-
-
-
-
     </header>
-    <fieldset>
-      <h2> Sign Up for our Weekly Newsletter</h2>
-    </fieldset>
+    <div id="formInput">
+      <form>
+        <fieldset>
+          <h2> Sign Up for our Weekly Newsletter</h2>
+          <h3>Stay up to date with events, activities, news and specials.</h3>
+            <ul>
+              <label for="name">Name</label>
+              <input type="text" id="name">
+              <label for="email">Email</label>
+              <input type="email" id="email">
+          </fieldset>
+        </form>
+      </div>
+
+
+    </div>
+
 
 
 
