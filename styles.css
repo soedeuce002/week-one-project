@@ -13,17 +13,41 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
 body {
+
   font-family: Merriweather, Roboto, sans-serif;
+  background-image: url(images/background-2.jpg);
+  background-size: cover;
+  color: #131511;
+  margin: 0px;
 }
-nav {
+
+#site_header {
   background-color: #FFFFFF;
   display: flex;
-  justify-content: center;
   justify-content: space-between;
+
+}
+
+#logo img{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+
+.main_navigation{
+  display: flex;
+  width: 50%;
+  height: 50px;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-right: 320px;
+  align-items: flex-end;
+
+
   }
 nav a {
   color: #2B2F26;
-  padding: 20px;
   font-family: arial;
   font-size: 20px;
 
@@ -35,11 +59,15 @@ nav a:active {
   color: #968772;
 }
 fieldset{
+  text-align: center;
   background-color: #FFFFFF;
+  border: none;
+  margin-top: 150px;
+  height: 300px;
+  padding: 20px;
 }
 
-fieldset h2 {
-  font-family: Merriweather;
+fieldset h2, h3{
   font-weight: normal;
 }
 .navigation {
@@ -51,4 +79,26 @@ fieldset h2 {
   display: flex;
   justify-content: center;
 
+}
+ul {
+display: block;
+margin-right: 50px;
+}
+input {
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid #968772;
+  width: 95%;
+  margin: 10px;
+  margin-top: 20px;
+
+}
+
+#submit {
+  width: 15%;
+  border: none;
+  background-color: #968772;
+  color: #F2F1E8;
+  margin-top: 10px;
+  padding: 15px;
 }
