@@ -32,7 +32,7 @@ body {
   background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
-  
+
 
   }
 
@@ -200,4 +200,73 @@ thead, tr{
 #succulContents{
   padding: 50px;
 
+}
+#homepage{
+  display: flex;
+  flex-direction: column;
+
+}
+.headers{
+  text-align: center;
+}
+
+.headers h1{
+  font-size: 300%;
+  font-weight: normal;
+  margin-bottom: 0px;
+
+}
+.headers h4{
+  font-size: 200%;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+.photoRows{
+  display: flex;
+
+}
+#plants{
+  background: url("images/product-1.jpg");
+  width: 50%;
+  height: 300px;
+  background-size: cover;
+  background-position: top;
+  margin: 10px;
+
+}
+
+#plates {
+  background: url("images/product-2.jpg");
+  width: 25%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+#homepage p{
+  color: #F2F1E8;
+  padding: 10px;
+  background-color: #4A4444;
+  width: 35%;
+  position: relative;
+  top: 200px;
+
+}
+#tray{
+  background: url("images/product-3.jpg");
+  width: 25%;
+  height: 300px;
+  background-size: cover;
+  margin: 10px;
+
+}
+#teacup {
+  background: url("images/product-4.jpg");
+}
+#jars {
+  background: url("images/product-5.jpg");
+
+}
+#bowls {
+  background: url("images/product-6.jpg");
 }
