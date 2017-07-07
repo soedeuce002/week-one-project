@@ -18,6 +18,9 @@ body {
   font-family: Merriweather, Roboto, sans-serif;
   color: #131511;
   margin: 0px;
+  line-height: 1.8;
+  background-color: #F2F1E8;
+
   }
 
 #newsletter {
@@ -29,6 +32,8 @@ body {
   background-color: #FFFFFF;
   display: flex;
   justify-content: space-between;
+  
+
   }
 
 #logo img{
@@ -83,6 +88,7 @@ fieldset h2, h3{
 main {
   display: flex;
   justify-content: center;
+
   }
 
 ul {
@@ -119,16 +125,79 @@ footer {
   padding: 20px;
 }
 
-/* <========================Tablet Layout==================================>*/
-
 #birdhouse {
   float: left;
   width: 100px;
   height: 100px;
-  margin: 10px;
+  margin: 20px;
+
 }
 #about {
   background-color: #F2F1E8;
   display: flex;
   flex-direction: column;
+
+
+}
+aside img{
+  width: 120px;
+  height: 100px;
+
+
+}
+#facilities{
+  display: flex;
+}
+
+#about h1{
+  text-align: center;
+  font-size: 300%;
+  font-weight: normal;
+}
+#opening {
+  width: 50%;
+}
+
+table, thead, th, tr, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+
+}
+table{
+  margin-bottom: 50px;
+}
+thead, tr{
+
+}
+.info {
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+#mission{
+  border-left: 2px solid #968772;
+  padding-left: 15px;
+}
+#caption {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.shaded{
+  background-color: #FBEDBF;
+}
+
+#succulents{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background: url("images/background-3.jpg") repeat fixed 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#succulContents{
+  padding: 50px;
+
 }
